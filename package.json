@@ -21,5 +21,17 @@
     "hbs": "^4.2.0",
     "mysql2": "^3.16.3",
     "pm2": "^6.0.14"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aitormera/DAM1M04-Exercici301.git"
+  },
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/aitormera/DAM1M04-Exercici301/issues"
+  },
+  "homepage": "https://github.com/aitormera/DAM1M04-Exercici301#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.11"
   }
 }
