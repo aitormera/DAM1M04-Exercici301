@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/estils.css">
+    <title>{{title}}</title>
+</head>
+<body>
+    {{> header}}
+
+    <main>
+        <h1>{{title}}</h1>
+        <h2>{{subtitle}}</h2>
+        
+        <p>{{notice}}</p> {{#if showWarning}}
+            <div class="warning">
+                <strong>ATENCIÓ:</strong> El sistema d'avisos està activat.
+            </div>
+        {{/if}}
+    </main>
+</body>
+</html>
