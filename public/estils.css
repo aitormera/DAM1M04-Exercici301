@@ -1,0 +1,44 @@
+
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    padding: 30px;
+    color: #333;
+    line-height: 1.6;
+}
+
+nav a {
+    text-decoration: none;
+    color: blue;
+    font-weight: bold;
+}
+
+.badge {
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 0.8em;
+    font-weight: bold;
+    color: white;
+}
+
+.petita { background-color: #27ae60; } 
+.gran { background-color: #2980b9; }   
+.avís {
+    background-color: #fff3cd;
+    border: 1px solid #ffeeba;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+th { background-color: #f2f2f2; }
