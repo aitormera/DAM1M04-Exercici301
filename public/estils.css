@@ -1,38 +1,35 @@
 
 body {
-    font-family: 'Segoe UI', Arial, sans-serif;
-    padding: 30px;
-    color: #333;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.6;
+    padding: 20px;
+    background-color: #f9f9f9;
 }
+
 
 nav a {
     text-decoration: none;
-    color: blue;
+    color: #007bff;
     font-weight: bold;
+    margin-right: 15px;
 }
 
-.badge {
-    padding: 4px 8px;
+
+.warning {
+    background-color: #e9ff92;
+    border: 1px solid rgb(255, 0, 0);
+    padding: 15px;
     border-radius: 4px;
-    font-size: 0.8em;
-    font-weight: bold;
-    color: white;
+    margin: 20px 0;
+    color: #a07903;
 }
 
-.petita { background-color: #27ae60; } 
-.gran { background-color: #2980b9; }   
-.avís {
-    background-color: #fff3cd;
-    border: 1px solid #ffeeba;
-    padding: 10px;
-    margin: 10px 0;
-}
 
 table {
     width: 100%;
     border-collapse: collapse;
     margin-top: 20px;
+    background-color: white;
 }
 
 th, td {
@@ -41,4 +38,22 @@ th, td {
     text-align: left;
 }
 
-th { background-color: #f2f2f2; }
+th {
+    background-color: #f2f2f2;
+}
+
+.badge-small, .badge-large {
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 0.85em;
+    color: white;
+    display: inline-block;
+}
+
+.badge-small {
+    background-color: #28a745;
+}
+.badge-large {
+    background-color: #007bff;
+}
